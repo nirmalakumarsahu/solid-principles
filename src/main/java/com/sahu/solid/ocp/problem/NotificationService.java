@@ -1,4 +1,4 @@
-package com.sahu.solid.srp.solution;
+package com.sahu.solid.ocp.problem;
 
 import com.sahu.solid.constant.MediumType;
 
@@ -8,6 +8,9 @@ public class NotificationService {
         switch (mediumType) {
             case EMAIL:
                 System.out.println("Sending OTP via Email.");
+                break;
+            case SMS:
+                System.out.println("Sending OTP via SMS.");
                 break;
             default:
                 System.out.println("Unknown OTP medium type.");

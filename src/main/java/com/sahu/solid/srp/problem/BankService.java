@@ -1,7 +1,7 @@
 package com.sahu.solid.srp.problem;
 
 import com.sahu.solid.constant.LoanType;
-import com.sahu.solid.constant.OTPMediumType;
+import com.sahu.solid.constant.MediumType;
 
 import java.math.BigDecimal;
 
@@ -38,9 +38,9 @@ public class BankService {
         }
     }
 
-    public void sendOTP(OTPMediumType otpMediumType) {
+    public void sendOTP(MediumType mediumType) {
         // send OTP logic
-        switch (otpMediumType) {
+        switch (mediumType) {
             case EMAIL:
                 System.out.println("Sending OTP via Email.");
                 break;

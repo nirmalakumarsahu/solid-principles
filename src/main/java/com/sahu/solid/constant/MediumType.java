@@ -1,5 +1,5 @@
 package com.sahu.solid.constant;
 
-public enum OTPMediumType {
+public enum MediumType {
     EMAIL, SMS, WHATSAPP;
 }
